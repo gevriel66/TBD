@@ -12711,10 +12711,10 @@ function Library:CreateWindow(WindowInfo)
                         BackgroundColor3 = "OutlineColor",
                         BackgroundTransparency = 0.5,
                         BorderSizePixel = 0,
-                        Position = UDim2.new(0, 0, 1, -1),
+                        Position = UDim2.new(0, 0, 0, 34),
                         Size = UDim2.new(1, 0, 0, 1),
-                        ZIndex = 2,
-                        Parent = TabboxButtons,
+                        ZIndex = 3,
+                        Parent = TabboxHolder,
                     })
                     Library.Registry[TabboxDivider] = { BackgroundColor3 = "OutlineColor" }
                 end
